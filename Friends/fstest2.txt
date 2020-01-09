@@ -1,0 +1,10 @@
+4
+june|n
+lydia|n
+janine|n
+serena|n
+june|lydia
+lydia|janine
+janine|june
+june|serena
+serena|lydia
