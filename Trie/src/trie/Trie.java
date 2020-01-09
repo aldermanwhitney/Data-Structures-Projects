@@ -22,7 +22,7 @@ public class Trie {
 	 * @return Root of trie with all words inserted from the input array
 	 */
 	public static TrieNode buildTrie(String[] allWords) {
-		/** COMPLETE THIS METHOD **/
+		
 		
 		//this root node will remain empty, 
 		// eventually only have children, no siblings or indexes
