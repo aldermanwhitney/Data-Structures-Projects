@@ -23,10 +23,6 @@ public class Expression {
      */
     public static void 
     makeVariableLists(String expr, ArrayList<Variable> vars, ArrayList<Array> arrays) {
-    	/** COMPLETE THIS METHOD **/
-    	/** DO NOT create new vars and arrays - they are already created before being sent in
-    	 ** to this method - you just need to fill them in.
-    	 **/
     	
     	//iterates through expression input and identifies all variables and arrays
     	//then, takes these variable names and array names, and adds them to their respective ArrayLists
@@ -156,9 +152,7 @@ public class Expression {
      */
     public static float 
     evaluate(String expr, ArrayList<Variable> vars, ArrayList<Array> arrays) {
-    	/** COMPLETE THIS METHOD **/
     	
-
         Stack<Float> numvals = new Stack<Float>();
         Stack<Character> operators = new Stack<Character>(); 
         String exp = expr.trim();
@@ -188,7 +182,7 @@ public class Expression {
                         break;
                     }
                         
-            } //end of while loop
+            } 
                 
                 
                 for (int j=numstring.length()-1; j>=0; j--) { //iterate backwards through collected number to get value
@@ -237,12 +231,11 @@ public class Expression {
                         int ind = vars.indexOf(varname);  //get index of the variable
                         System.out.println("ind: " + ind);
                         float v = (float)vars.get(ind).value; //get the value of the variable
-                        System.out.println("Expression variable:" + variable);
-                        System.out.println("v: " + v);
+                     //   System.out.println("Expression variable:" + variable);
+                     //   System.out.println("v: " + v);
                         numvals.push(v); //pushes variable value into value stack
-                        System.out.println(numvals.peek());
-                        //System.out.println(vars.get(0));  //returns a = 3
-                        //System.out.println(vars.get(0).value); // returns 3
+                      //  System.out.println(numvals.peek());
+                     
                     
                     
                     }
@@ -530,21 +523,7 @@ public class Expression {
         }
         
         
-        
-        
- 
 
-        
-   //     System.out.println(vars.get(0));  //returns a = 3
-    //    System.out.println(vars.get(0).value); // returns 3
-        
-
-        
-
-        
-
-        
-        // following line just a placeholder for compilation
         
         return numvals.peek();
         //return 0;
