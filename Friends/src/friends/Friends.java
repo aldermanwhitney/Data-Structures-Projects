@@ -22,8 +22,6 @@ public class Friends {
 	 */
 	public static ArrayList<String> shortestChain(Graph g, String p1, String p2) {
 		
-		/** COMPLETE THIS METHOD **/
-		
 		// BFS SEARCH
 		// prev nodes stored in array for backtracing to find path once destination is found
 		// p1 is starting vertex, p2 is ending vertex
@@ -126,7 +124,6 @@ public class Friends {
 	 */
 	public static ArrayList<ArrayList<String>> cliques(Graph g, String school) {
 		
-		/** COMPLETE THIS METHOD **/
 
 		System.out.println("in Friends: cliques method.");
 		
@@ -293,11 +290,7 @@ public class Friends {
 			if (dfsnum[v]<=back[ptr.fnum] && !result.contains(g.members[v].name) && (v!=0)){ // || back[ptr.fnum]==1)){
 				result.add(g.members[v].name);
 			}
-			//////////////////////////////////
-			//If deleted - starting point can never be connector.
-			//IS starting point:
-			//if v does NOT have any neighbors which are non connectors - v is a connector 
-			// v has a neighbor that is not on the connector list - w NOT connector 
+ 
 			if (dfsnum[v]<=back[ptr.fnum] && !result.contains(g.members[v].name) && (v==0)){
 				
 				//Not a connector, do not add 
@@ -322,7 +315,7 @@ public class Friends {
 				}
 				
 			}
-			////////////////////////////////
+			
 			
 		}
 		
