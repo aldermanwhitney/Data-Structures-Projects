@@ -1,10 +1,10 @@
 # Data-Structures-Projects
 Completed in undergrad
 
-Expression Evaluation
+### Expression Evaluation
 A program which reads a mathematical expression from the user which may contain numbers, scalar variables, arrays and any of the following operators: + - * / ( ) [ ]
-The expression may be nested using parenthesis and brackets to any degree
-Any variables and arrays must be predefined in a .txt file in order to be correctly read (See the .txt files for examples)
+- The expression may be nested using parenthesis and brackets to any degree
+- Any variables and arrays must be predefined in a .txt file in order to be correctly read (See the .txt files for examples)
 
 Files
 Array.java - Holds a (name, array of integer values) pair for an array. The name is a sequence of one or more letters. 
@@ -16,7 +16,7 @@ makeVariableLists() - iterates through expression input and identifies all varia
 loadVariableValues() - Loads values for variables and arrays in the expression from .txt file
 evaulate() - Evauluates the expression using stack data structures for appropriate operation order
 
-Friends
+### Friends
 Given a .txt file which contains names, corresponding school and connected "friends" to represent a graph, program can return a number of things including: shortest path between two friends, groups of "cliques" and friends which serve as connectors between two cliques.
 
 
@@ -29,8 +29,8 @@ cliques() - Recursively finds all cliques of students in a given school. Returns
 connectors() - Recursively finds and returns all connectors in a graph.
 
 
-Trie
+### Trie
 Creates a trie using any dictionary of words input by the user
 
-Big Integer
+### Big Integer
 Overcomes the maximum number of digits that a java program can store by implementing linked lists to store digits
