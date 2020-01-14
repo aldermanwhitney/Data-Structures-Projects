@@ -200,8 +200,7 @@ public class Friends {
 	 * @return Names of all connectors. Null if there are no connectors.
 	 */
 	public static ArrayList<String> connectors(Graph g) {
-		
-		/** COMPLETE THIS METHOD **/
+	
 		
 		//DRIVER
 		System.out.println("in Friends: connectors method.");
