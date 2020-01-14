@@ -7,10 +7,10 @@ A program which reads a mathematical expression from the user which may contain 
 - Any variables and arrays must be predefined in a .txt file in order to be correctly read (See the .txt files for examples)
 
 Files
-Array.java - Holds a (name, array of integer values) pair for an array. The name is a sequence of one or more letters. 
-Evaluator.java - Contains the main class, which reads inputs from user and .txt files using scanner
-Variable.java - Holds a (name, integer value) pair for a simple (non-array) variable.
-Expression.java - Contains the bulk of the work. 
+Array.java - Holds a (name, array of integer values) pair for an array. The name is a sequence of one or more letters.   
+Evaluator.java - Contains the main class, which reads inputs from user and .txt files using scanner  
+Variable.java - Holds a (name, integer value) pair for a simple (non-array) variable.  
+Expression.java - Contains the bulk of the work.  
 Methods:  
 makeVariableLists() - iterates through expression input and identifies all variables and arrays. Next, it takes these variable names and array names, and adds them to their respective ArrayLists
 loadVariableValues() - Loads values for variables and arrays in the expression from .txt file
